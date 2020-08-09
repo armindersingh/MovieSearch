@@ -1,0 +1,58 @@
+.searchDiv {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    background-color: #004B84;
+}
+
+.searchDiv input{
+    height: 30px;
+    font-size: large;
+    border: 1px solid #CCC;
+    padding: 5px;
+    outline: none;
+}
+
+.searchInput {
+    width : 70%;
+}
+
+.searchDiv select{
+    font-size: large;
+    border: 1px solid #CCC;
+    padding: 5px;
+    outline: none;
+}
+
+.searchDiv button {
+    width: 20%;
+    border: none;
+    background-color: #18364D;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    outline: none;
+}
+
+.movieResult {
+    padding : 10px;
+}
+
+.error {
+    color:red;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.addRemoveFavouritesText {
+    font-size: xx-small;
+    text-align: right !important;
+}
+
+.removeFavourite {
+    color: crimson;
+}
+
+.addFavourite {
+    color : blue;
+}
