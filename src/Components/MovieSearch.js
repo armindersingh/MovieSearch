@@ -16,7 +16,7 @@ const MovieSearch = (props) => {
     }
 
     function createUrl() {
-        let url = "http://www.omdbapi.com/?apikey=f47f441c";
+        let url = "https://www.omdbapi.com/?apikey=f47f441c";
         url = searchInput.value ? url + `&t=${searchInput.value.replace(/ /g, '+')}` : url ;
         url = yearValue.value ? url + `&y=${yearValue.value.replace(/ /g, '+')}` : url ;
         url = plotValue.value !== '' ? url + `&plot=${plotValue.value}` : url ;
